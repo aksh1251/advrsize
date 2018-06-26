@@ -1,0 +1,33 @@
+/* To display placeholders in input[date] */
+input[type="date"]:before {
+    content: attr(placeholder) !important;
+    color: #aaa;
+    margin-right: 0.5em;
+}
+
+/* To display placeholders in input[date] */
+input[type="date"]:focus:before,
+input[type="date"]:valid:before {
+    content: "";
+}
+
+.black-bg {
+    background: #121212;
+}
+
+#landing-page {
+    padding: 300px 0;
+    background: url('../images/billboard.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#why-us {
+    /* background: url('../images/billboard-2.jpg'); */
+    background-size: cover;    
+}
+
+#ooh-media .card-img-top {
+    object-fit: cover;
+    max-height: 250px;
+}
